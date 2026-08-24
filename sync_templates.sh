@@ -16,7 +16,6 @@ mkdir -p "$TARGET_DIR"
 cat <<EOF > "$TARGET_DIR/sync_manifest.json"
 {
   "last_synced_utc": "$TIMESTAMP",
-  "source_repo": "https://github.com/Amitmund/commands",
   "status": "success",
   "templates": [
     "modern_sre_v1",
